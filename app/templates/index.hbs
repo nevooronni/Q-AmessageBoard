@@ -1,0 +1,12 @@
+<h1> Welcome to Q&A Message Board </h1>
+
+We hope you find exactly what you're answers you are looking for.
+
+<ul>
+	{{#each model as |question|}}
+		<li>{{question.author}}'s {{question.email}} in {{question.question}}</li>
+	{{/each}}
+</ul>
+
+{{#link-to 'about'}}About Us{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}

@@ -1,0 +1,14 @@
+{ "questions": [{
+    "author": " Neville Oronni",
+    "email": "nevooronni@gmail.com",
+    "question": "what is the meaning of life"
+  }, {
+    "author": "Eugene Ubank",
+     "email": "ubank@gmail.com",
+    "question": "what is calculus"
+  }, {
+    "author": "Chelsea Manning",
+    "email": "manning@gmail.com",
+    "question": "how do you plan for a family"
+  }]
+}
