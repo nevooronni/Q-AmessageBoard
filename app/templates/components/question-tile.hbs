@@ -1,9 +1,10 @@
 <li>
-  {{question.author}}'s {{question.email}}
+  {{question.author}}'s {{question.email}} <br>{{question.question}}<br><br>
   {{#if isImageShowing }}
     <p><img src={{question.image}} alt={{question.topic}} {{action 'imageHide'}}></p>
   {{else}}
     <button {{action 'imageShow'}}>Show Image</button>
   {{/if}}
+  {{update-question question=question update="update"}}
    <button {{action 'delete' question}}>Delete question</button>
 </li>
