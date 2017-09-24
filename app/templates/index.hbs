@@ -4,7 +4,7 @@ We hope you find exactly what you're answers you are looking for.
 
 <ul>
 	{{#each model as |question|}}
-		<li>{{question.author}}'s {{question.email}} in {{question.question}}</li>
+		 {{question-tile question=question}}
 	{{/each}}
 </ul>
 

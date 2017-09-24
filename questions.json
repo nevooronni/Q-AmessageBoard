@@ -1,14 +1,20 @@
 { "questions": [{
     "author": " Neville Oronni",
     "email": "nevooronni@gmail.com",
-    "question": "what is the meaning of life"
+    "question": "what is the meaning of life",
+    "topic": "philosophy",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
   }, {
     "author": "Eugene Ubank",
-     "email": "ubank@gmail.com",
-    "question": "what is calculus"
+    "email": "ubank@gmail.com",
+    "question": "what is calculus",
+    "topic": "Math",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
   }, {
     "author": "Chelsea Manning",
     "email": "manning@gmail.com",
-    "question": "how do you plan for a family"
+    "question": "how do you plan for a family",
+    "topic": "social",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
   }]
 }
